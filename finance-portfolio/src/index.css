@@ -1,0 +1,6 @@
+@import "tailwindcss";
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
