@@ -1,5 +1,5 @@
 import axios from "axios";
-const API = "https://finance-tracker-b6l2.onrender.com";
+const API = "https://finance-tracker-b6l2.onrender.com/api/portfolio";
 import { ApiResponse,Portfolio,CreatePortfolioRequest, CreateInvestmentRequest } 
 from "../types/types";
 
