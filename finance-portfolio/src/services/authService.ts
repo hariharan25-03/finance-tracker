@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:8080/api/auth";
+const API = "https://finance-tracker-b6l2.onrender.com";
 
 export async function login(email: string, password: string) {
   const res = await axios.post(`${API}/login`, { email, password });
